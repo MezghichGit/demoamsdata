@@ -7,7 +7,7 @@ services:
   spring:
     image: ams_app
     ports:
-      - "8001:8001" 
+      - "8084:8084" 
     container_name: spring_cont
     depends_on:
       - database
